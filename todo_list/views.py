@@ -14,5 +14,5 @@ def delete(request,list_id):
     item=List.objects.get(pk=list_id)
     item.delete()
     print(List.objects.all)
-    messages.success(request, ("Item Has Beenn Deleted"))
-    return redirect( 'home.html')
+    messages.success(request, ("Item Has Been Deleted"))
+    return redirect('home')
