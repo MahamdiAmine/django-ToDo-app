@@ -1,0 +1,4 @@
+.vscode
+./idea/*
+./learn-django/*
+db.sqlite3
