@@ -2,3 +2,6 @@
 ./idea/*
 ./learn-django/*
 db.sqlite3
+__pycache__/*
+todo_list/__pycache__/*
+todo_list/migrations/*
